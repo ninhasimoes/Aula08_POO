@@ -1,3 +1,5 @@
+package Exemplo01;
+
 public abstract class Empregado extends Object {
     long matricula;
     String nome;
@@ -12,7 +14,7 @@ public abstract class Empregado extends Object {
 
     @Override
     public String toString() {
-        return "Empregado{" +
+        return "Exemplo01.Empregado{" +
                 "matricula=" + matricula +
                 ", nome='" + nome + '\'' +
                 '}';

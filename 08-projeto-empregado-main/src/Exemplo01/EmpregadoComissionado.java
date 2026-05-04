@@ -1,3 +1,5 @@
+package Exemplo01;
+
 public class EmpregadoComissionado extends Empregado {
     double totalDeVendas;
     double comissao;
@@ -14,7 +16,7 @@ public class EmpregadoComissionado extends Empregado {
 
     @Override //neste ponto nos estamos sob-escrevendo um metodo
     public String toString() {
-        return "EmpregadoComissionado{" +
+        return "Exemplo01.EmpregadoComissionado{" +
                 "totalDeVendas=" + totalDeVendas +
                 ", comissao=" + comissao +
                 ", matricula=" + matricula +

@@ -1,3 +1,5 @@
+package Exemplo01;
+
 public class EmpregadoHorista extends Empregado {
     int totalDeHorasTrabalhadas;
     double valorDaHora;
@@ -14,7 +16,7 @@ public class EmpregadoHorista extends Empregado {
 
     @Override
     public String toString() {
-        return "EmpregadoHorista{" +
+        return "Exemplo01.EmpregadoHorista{" +
                 "totalDeHorasTrabalhadas=" + totalDeHorasTrabalhadas +
                 ", valorDaHora=" + valorDaHora +
                 ", matricula=" + matricula +
