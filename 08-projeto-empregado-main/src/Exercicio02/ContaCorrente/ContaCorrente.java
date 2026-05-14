@@ -14,4 +14,9 @@ public class ContaCorrente extends Conta {
     public double getSaldoDisponivel() {
         return super.getSaldoDisponivel() + limite;
     }
+
+    @Override
+    public String toString() {
+        return super.toString()+ " |Limite: R$ " + limite + "|";
 }
+    }

@@ -1,6 +1,6 @@
 package Exercicio02.Conta;
 
-public abstract class Conta {
+public class Conta {
     protected int numero;
     protected double saldo;
 
@@ -16,4 +16,8 @@ public abstract class Conta {
         return saldo;
     }
 
+    @Override
+    public String toString() {
+        return "Conta Nº: " + numero + ", | Saldo Atual: R$" + saldo;
+    }
 }

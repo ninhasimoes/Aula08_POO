@@ -13,4 +13,9 @@ public class ContaPoupanca extends Conta {
     public double aplicarRendimento(){
         return saldo += saldo * taxaRendimento;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "| Taxa de Rendimento: |" + (taxaRendimento * 100) + "%";
+    }
 }
